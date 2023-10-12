@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "myapp",
+    "name": "Calculator",
     "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pranaw2004.myapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pranaw2004.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89b266ac-284a-4da5-8bf6-5b45f47fc234"
+      }
     }
   }
 }
